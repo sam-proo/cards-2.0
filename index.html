@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        padding: 0;
+    }
+
+    body {
+
+        background-color: cornflowerblue;
+
+    }
+
+    .content {
+
+        height: 70vh;
+        width: 90vw;
+        /* background-color: red; */
+        margin: auto;
+        overflow: hidden;
+        margin-top: 100px;
+        padding: 0px;
+        border-left: 2px solid gray;
+        border-right: 2px solid gray;
+
+
+    }
+
+    .card {
+
+        height: 100%;
+        width: 350px;
+        background-color: orange;
+        margin: auto;
+        display: inline-block;
+        margin-left: 50px;
+        animation: slide 10s linear infinite;
+        transform: translatex(-150%);
+    }
+
+    @keyframes slide {
+        from {
+            transform: translate(-500%);
+        }
+
+        to {
+            transform: translate(1500px);
+
+        }
+
+
+
+}
+
+.card:hover{
+
+
+
+    
+}
+
+
+
+</style>
+
+<body>
+
+    <div class="content">
+        <div class="card">
+        </div>
+        <div class="card">
+        </div>
+        <div class="card">
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
